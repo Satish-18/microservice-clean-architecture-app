@@ -1,0 +1,23 @@
+#datasources.default.db-type=mysql
+#datasources.default.dialect=MYSQL
+#micronaut.application.name=messenging
+#datasources.default.schema-generate=CREATE
+#datasources.default.driver-class-name=org.mysql.cj.jdbc.Driver
+#datasources.default.url=jdbc:mysql://localhost:3306/test
+#datasources.default.username=root
+#datasources.default.password=satish@1199
+datasources:
+  default:
+    db-type: mysql
+    dialect: MYSQL
+    schema-generate: CREATE_DROP
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: satish@1199
+
+micronaut:
+  application:
+    name: messenging
+  server:
+    port: 8081
